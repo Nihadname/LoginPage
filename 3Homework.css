@@ -10,7 +10,7 @@
   }
   .column h2{
     text-align: center;
-    font-size: 50px;
+    font-size: 46px;
     font-weight: 800;
     text-transform: lowercase;
     line-height: 1px;
@@ -19,13 +19,65 @@
 font-weight: 900;
 color: rgb(71, 70, 70)
   }
+
  
   .column h3{
     text-align: center;
     font-size: 38px;
-    font-weight: 300;
+    font-weight: lighter;
+    font-family: 'Visby', sans-serif;
+                                                
     line-height: .1em;
     letter-spacing: -.1px;
-    font-family: visby cf,Sans-serif!important;
-color: #4A4A4A;
+  color: #4A4A4A;
+  }
+  .imgPart {
+   display: flex;
+   justify-content: center;
+  }
+  .imgPart img{
+    margin: 21px 0;
+    margin-right: 12px;
+    padding: 0;
+  }
+  .column p{
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: 'Visby', sans-serif;
+    color: #4A4A4A;
+    font-weight: 400;
+margin-left:auto;
+
+  }
+  .insidePart{
+    margin-left: -245px;
+  }
+  .square-container{
+    height: 400px;
+    width: 518px;
+    position: relative;
+  }
+  .square{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    position: absolute;
+
+  }
+  
+  .top-left{
+    top: 0;
+    left: 0;
+  }
+  .top-right{
+    top: 0;
+    right: 0;
+  }
+  .bottom-left{
+    bottom: 0;
+    left: 0;
+  }
+  .bottom-right{
+    bottom: 0;
+    right: 0;
   }
