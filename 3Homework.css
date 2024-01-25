@@ -54,14 +54,15 @@ margin-left:auto;
   }
   .square-container{
     height: 400px;
-    width: 518px;
+    width: 524px;
     position: relative;
   }
   .square{
     width: 50%;
     height: 50%;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     position: absolute;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add transition for a smooth effect */
 
   }
   
@@ -81,3 +82,39 @@ margin-left:auto;
     bottom: 0;
     right: 0;
   }
+  .compenets img{
+    margin: 7px
+  }
+  .compenets h2{
+    font-size: 19px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 0;
+    font-family: visby cf,Sans-serif!important;
+    margin: 72px 10px;
+    margin-left: 12px;
+    text-transform: uppercase;
+    }
+    .squareFirst:hover {
+      background-color: purple;
+      box-shadow: 9px -12px 5px 0px rgba(  184,44,184,1);
+      color: #fff;
+      cursor: pointer;
+      color: #fff;
+  }
+  .squareSecond:hover{
+    background-color: #FFCD05;
+    box-shadow: 9px -12px 5px 0px rgba(245,218,14,1);
+
+  }
+  .squareThird:hover{
+    background-color: #00B45A;
+    box-shadow: 9px -12px 5px 0px rgba(14,245,34,1);
+
+  }
+  .squareFourth:hover{
+    background-color: #2382C8;
+    box-shadow: 9px -12px 5px 0px rgba(38,181,237,1);
+
+  }
+  .compenets h2:hover{ color:#fff} 
